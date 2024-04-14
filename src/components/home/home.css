@@ -1,0 +1,23 @@
+.home {
+    width: 100%;
+}
+
+.home-img {
+    position: relative;
+    padding: 16rem;
+    background-image: url(../../assets/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-img p {
+    position: absolute;
+    top: 50%; 
+    left: 70%; 
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2rem;
+    color: white;
+}

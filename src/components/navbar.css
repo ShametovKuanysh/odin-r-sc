@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.navbar-links ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.link {
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
+    line-height: 2rem;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.counter {
+    top: 0;
+    left: 90%;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    padding: .2rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+}

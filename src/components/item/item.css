@@ -1,0 +1,75 @@
+.item {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr .5fr;
+    gap: 1rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+}
+
+.item-img {
+    padding: 5rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item-data {
+    padding: 1rem;
+}
+
+.item-data p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.item-action {
+    padding: 1rem;
+}
+
+.item-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    border-radius: .5rem;
+    background-color: #3B82F6;
+    color: white;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+.btn-left {
+    border-radius: .5rem 0 0 .5rem;
+    border: 1px solid black;
+    border-right: none;
+}
+
+.btn-right {
+    border-radius: 0 .5rem .5rem 0;
+    border: 1px solid black;
+    border-left: none;
+}
+
+.item-count input {
+    width: 100%;
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+.card-btn {
+    margin: 1rem 0;
+    width: 100%;
+}
+
+button:disabled {
+    background-color: light-dark(rgba(239, 239, 239, 0.3), rgba(19, 1, 1, 0.3));
+    color: light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3));
+    border-color: light-dark(rgba(118, 118, 118, 0.3), rgba(195, 195, 195, 0.3));
+}
